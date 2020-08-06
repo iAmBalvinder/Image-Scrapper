@@ -93,5 +93,5 @@ def get_image_url():
         url_list.append(dict)
     return jsonify(url_list) # send the url list in JSON format
 if __name__ == "__main__":
-    #app.run(host='127.0.0.1', port=8000) # port to run on local machine
-    app.run(debug=True) # to run on cloud
+    app.run(host='127.0.0.1', port=8000) # port to run on local machine
+    #app.run(debug=True) # to run on cloud
